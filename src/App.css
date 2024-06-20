@@ -3,6 +3,7 @@
 
 #root {
   --azulelectrico: #0A84FF;
+  --rojoanaranjado:#FF6347;
   display: flex;
   min-height: 100vh;
   flex-direction: column;
@@ -22,5 +23,16 @@ h1, h2, h3, h4, h5, h6 {
 
 .logo{
   height: 110px;
-  
+}
+
+.btn {
+  font-family: 'Orbitron', sans-serif;
+  background-color: #FF4500; 
+  color: #FFFFFF; 
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.btn:hover{
+  background-color: var(--rojoanaranjado)
 }

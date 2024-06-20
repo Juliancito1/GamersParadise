@@ -11,10 +11,10 @@ const NavbarApp = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
-            <Link to={'/'} className='nav-link'>Inicio</Link>
-            <Link className='nav-link'>¿Quienes Somos?</Link>
-            <Link className='nav-link'>Tienda</Link>
-            <Link className='nav-link'>Iniciar Sesion</Link>
+            <Link to={'/'} className='nav-link btn rounded-pill'>Inicio</Link>
+            <Link className='nav-link btn mx-2 rounded-pill'>¿Quienes Somos?</Link>
+            <Link className='nav-link btn me-2 rounded-pill'>Tienda</Link>
+            <Link className='nav-link btn rounded-pill'>Iniciar Sesion</Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
