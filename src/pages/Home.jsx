@@ -1,10 +1,14 @@
 import React from 'react'
+import CarouselApp from '../components/CarouselApp'
 
 const Home = () => {
   return (
-    <section className='mainSection'>
-      <h1>Hola Mundo</h1>
-    </section>
+    <>
+      <section className='mainSection'>
+      <CarouselApp/>
+      <h1>HOla mundo</h1>
+      </section>
+    </>
   )
 }
 
