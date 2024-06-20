@@ -18,10 +18,11 @@ const FooterApp = () => {
             <div className="text-center my-2">
             <img className="logo rounded-circle" src={logo} alt="" />
             </div>
-        <Container className="d-flex justify-content-center mt-3">
+        
+        <Container className="d-flex flex-column flex-md-row d-md-flex justify-content-center mt-3">
         <Link to={'/'} className='nav-link btn rounded-pill'>Inicio</Link>
-            <Link className='nav-link btn mx-2 rounded-pill'>¿Quienes Somos?</Link>
-            <Link className='nav-link btn me-2 rounded-pill'>Tienda</Link>
+            <Link className='nav-link btn my-3 my-md-0 mx-md-2 rounded-pill'>¿Quienes Somos?</Link>
+            <Link className='nav-link btn mb-3 my-md-0 me-md-2 rounded-pill'>Tienda</Link>
             <Link className='nav-link btn rounded-pill'>Iniciar Sesion</Link>
         </Container>
     </footer>
