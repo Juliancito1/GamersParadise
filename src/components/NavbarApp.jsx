@@ -5,7 +5,7 @@ import logo from '../img/GamersParadiseLogo.jpg'
 
 const NavbarApp = () => {
   return (
-    <Navbar expand="lg" bg="dark" data-bs-theme="dark">
+    <Navbar expand="lg" className='fondo'>
       <Container>
         <Link to={'/'} className='navbar-brand'><img className='logo rounded-circle' src={logo} alt="Logo" /></Link>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
