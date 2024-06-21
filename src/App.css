@@ -1,5 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto:wght@400;700&display=swap');
 
+.horizontal-scroll::-webkit-scrollbar{
+  background-color: black;
+  width: 5px;
+  height: 8px;
+}
+
+.horizontal-scroll{
+  overflow-x: auto;
+}
+
+.horizontal-scroll::-webkit-scrollbar-thumb{
+  background-color: var(--azulelectrico);
+  border-radius: 10px;
+}
+
 
 #root {
   --azulelectrico: #0A84FF;
@@ -15,6 +30,8 @@
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Orbitron', sans-serif;
   color: var(--azulelectrico); 
+  text-shadow: 5px 5px black
+  
 }
 
 .mainSection{
@@ -53,10 +70,27 @@ h1, h2, h3, h4, h5, h6 {
   object-position: center center;
 }
 
+.cardDestacado{
+  background-color: #1b1b1b;
+  color: #fff;
+  border: none;
+  box-shadow: 10px 10px 10px black;
+  width: 500px;
+}
+
+p{
+  font-size: 20px;
+  line-height: 2rem;
+  text-shadow: 4px 4px black;
+}
+
 @media all and (max-width: 767px){
   .img-carousel{
     height: 300px; 
     object-fit: cover;
     object-position: center center;
+  }
+  .cardDestacado{
+    width: 300px;
   }
 }
