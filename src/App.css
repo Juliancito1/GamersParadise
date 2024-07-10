@@ -94,3 +94,19 @@ p{
     width: 300px;
   }
 }
+
+.testimonio{
+  font-style: italic;
+  border: 3px solid black;
+  background-color: #273e55;
+  border-radius: 50px;
+}
+
+.testimonioImg{
+  height: 150px;
+  object-fit: cover;
+}
+
+.testimonio p{
+  font-size: 25px;
+}
